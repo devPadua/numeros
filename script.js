@@ -14,6 +14,7 @@ function adicionar(){
     numeros.push(numaddn)
     document.getElementById('num').value = ""
     conjunto.innerHTML += `${numaddn} `
+    num.focus()
     }
 }
 function fin(){
